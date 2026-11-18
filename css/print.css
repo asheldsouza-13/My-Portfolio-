@@ -1,0 +1,136 @@
+/* ==========================================================================
+   RESUME PRINT STYLESHEET
+   Clean monochrome print layout optimized for PDF export and recruiters
+   ========================================================================== */
+
+@media print {
+  /* Hide all website chrome and navigation */
+  .site-header,
+  .site-footer,
+  .btn-mobile-menu,
+  .mobile-drawer-overlay,
+  .mobile-drawer,
+  .toast-notice,
+  .modal-header,
+  .modal-footer,
+  .hero-section,
+  #about,
+  #education,
+  #skills,
+  #projects,
+  #interests,
+  #contact {
+    display: none !important;
+  }
+
+  /* Reset document for printing */
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  /* Display modal content in flow */
+  .modal-overlay {
+    position: static !important;
+    inset: auto !important;
+    background: none !important;
+    backdrop-filter: none !important;
+    padding: 0 !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .modal-container {
+    max-width: 100% !important;
+    max-height: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  .modal-body {
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  .resume-paper {
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    gap: 1.25rem !important;
+  }
+
+  .resume-header {
+    border-bottom: 2px solid #000 !important;
+    padding-bottom: 0.75rem !important;
+  }
+
+  .resume-name {
+    font-size: 20pt !important;
+    color: #000 !important;
+  }
+
+  .resume-tagline {
+    font-size: 11pt !important;
+    color: #333 !important;
+  }
+
+  .resume-contact-bar {
+    font-size: 9pt !important;
+    color: #444 !important;
+  }
+
+  .resume-heading {
+    border-bottom: 1px solid #444 !important;
+    font-size: 11pt !important;
+    padding-bottom: 2px !important;
+    margin-top: 0.5rem !important;
+    color: #000 !important;
+  }
+
+  .resume-entry-title {
+    font-size: 10.5pt !important;
+  }
+
+  .resume-entry-date {
+    font-size: 9pt !important;
+    color: #555 !important;
+  }
+
+  .resume-entry-sub {
+    font-size: 9.5pt !important;
+    color: #333 !important;
+  }
+
+  .resume-bullets {
+    font-size: 9.5pt !important;
+    color: #222 !important;
+    margin-top: 2px !important;
+  }
+
+  .resume-paper img {
+    max-width: 80px !important;
+    max-height: 104px !important;
+    object-fit: cover !important;
+    border: 1px solid #444 !important;
+  }
+
+  /* Prevent page breaks inside entries */
+  .resume-entry, .resume-section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: #000 !important;
+  }
+}

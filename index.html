@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashel Dsouza | MCA Portfolio | Poornaprajna Institute of Management</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Ashel Dsouza | MCA Portfolio | Poornaprajna Institute of Management">
+  <meta name="description" content="Portfolio of Ashel Dsouza, MCA student at Poornaprajna Institute of Management (PIM) Udupi specializing in software development, web technologies, and AI & ML.">
+  <meta name="author" content="Ashel Dsouza">
+  <meta name="keywords" content="Ashel Dsouza, MCA, PIM Udupi, Poornaprajna Institute of Management, Software Developer, Web Developer, Java, Python, HTML, CSS, SQL">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ashel Dsouza | MCA Portfolio | Poornaprajna Institute of Management">
+  <meta property="og:description" content="Portfolio of Ashel Dsouza, MCA student at Poornaprajna Institute of Management (PIM) Udupi specializing in software development.">
+  <meta property="og:image" content="assets/ashel-dsouza.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Ashel Dsouza | MCA Portfolio | Poornaprajna Institute of Management">
+  <meta property="twitter:description" content="Portfolio of Ashel Dsouza, MCA student at Poornaprajna Institute of Management (PIM) Udupi specializing in software development.">
+  <meta property="twitter:image" content="assets/ashel-dsouza.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. Top Sticky Navigation Header
+       ========================================================================= -->
+  <header class="site-header" id="top-nav">
+    <div class="container nav-container">
+      <!-- Brand Logo / Monogram -->
+      <a href="#hero" class="brand-link" aria-label="Ashel Dsouza Portfolio Homepage">
+        <span class="brand-logo" aria-hidden="true">AD</span>
+        <div class="brand-text-wrapper">
+          <span class="brand-name">Ashel Dsouza</span>
+          <span class="brand-tag">MCA · PIM Udupi</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#interests" class="nav-link">Interests</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle & Resume CTA) -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button class="btn-icon" data-action="toggle-theme" aria-label="Switch theme mode" title="Switch theme mode">
+          <!-- Moon Icon (Dark Mode Trigger) -->
+          <svg class="theme-icon-dark" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12.3 2a10 10 0 0 0-.19 20 10 10 0 0 0 8.35-4.52 1 1 0 0 0-.85-1.48 8 8 0 1 1-8.79-13.91 1 1 0 0 0 .48-.09A1 1 0 0 0 12.3 2z"/>
+          </svg>
+          <!-- Sun Icon (Light Mode Trigger) -->
+          <svg class="theme-icon-light" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <!-- Resume Modal CTA Button -->
+        <button class="btn btn-secondary btn-sm" data-action="open-resume" aria-label="Open formatted resume modal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          Resume
+        </button>
+
+        <!-- Mobile Drawer Menu Toggle -->
+        <button class="btn-icon btn-mobile-menu" id="mobile-menu-btn" aria-label="Toggle navigation drawer" aria-expanded="false" aria-controls="mobile-drawer">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu Overlay -->
+  <div class="mobile-drawer-overlay" id="drawer-overlay" aria-hidden="true">
+    <div class="mobile-drawer" id="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+      <div class="drawer-header">
+        <div class="brand-link">
+          <span class="brand-logo" aria-hidden="true">AD</span>
+          <span class="brand-name">Ashel Dsouza</span>
+        </div>
+        <button class="btn-icon" id="drawer-close-btn" aria-label="Close navigation menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <nav aria-label="Mobile Navigation">
+        <ul class="drawer-links">
+          <li><a href="#about" class="drawer-link">About Me</a></li>
+          <li><a href="#education" class="drawer-link">Education</a></li>
+          <li><a href="#skills" class="drawer-link">Skills &amp; Expertise</a></li>
+          <li><a href="#projects" class="drawer-link">Featured Projects</a></li>
+          <li><a href="#interests" class="drawer-link">Interests &amp; Ambitions</a></li>
+          <li><a href="#contact" class="drawer-link">Contact &amp; Connect</a></li>
+        </ul>
+      </nav>
+
+      <div class="drawer-footer">
+        <button class="btn btn-secondary" data-action="open-resume" style="width: 100%;">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          View Full Resume
+        </button>
+        <button class="btn btn-secondary" data-action="toggle-theme" style="width: 100%;">
+          Toggle Theme (Dark / Light)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- =======================================================================
+         2. Hero Showcase Section (Text-Focused Mode with Portrait)
+         ======================================================================= -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-layout">
+          <div class="hero-content">
+            <!-- Meta Status & Location -->
+            <div class="hero-meta-bar">
+              <span class="badge badge-status">
+                <span class="pulse-dot" aria-hidden="true"></span>
+                Open for Internships &amp; Project Collaborations
+              </span>
+              <span class="hero-location">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+                Udupi, Karnataka, India
+              </span>
+            </div>
+
+            <!-- Main Title & Headline -->
+            <h1 class="hero-title" id="hero-title">Ashel Dsouza</h1>
+
+            <div class="hero-headline">
+              <span>MCA Student</span>
+              <span class="headline-separator" aria-hidden="true">|</span>
+              <span>Aspiring Software Developer</span>
+              <span class="headline-separator" aria-hidden="true">|</span>
+              <span>AI &amp; ML Enthusiast</span>
+            </div>
+
+            <!-- Student Authentic Personal Statement -->
+            <div class="hero-statement-card">
+              <p class="hero-statement-text">
+                &ldquo;I am an MCA student with a background in Computer Applications and a strong interest in software development, web technologies, and Artificial Intelligence. I enjoy learning new technologies, exploring programming concepts, and building practical projects. I am eager to improve my technical skills and gain hands-on experience through real-world opportunities.&rdquo;
+              </p>
+              <div class="hero-institution-tag">
+                Poornaprajna Institute of Management (PIM) · Udupi, Karnataka
+              </div>
+            </div>
+
+            <!-- Primary Actions -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                Explore Work
+              </a>
+              <a href="#contact" class="btn btn-secondary btn-lg">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                Get in Touch
+              </a>
+              <button class="btn btn-secondary btn-lg" data-action="open-resume">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                View Resume
+              </button>
+            </div>
+
+            <!-- Quick Social Links Bar -->
+            <div class="hero-socials" aria-label="Social and direct contact links">
+              <a href="https://github.com/asheldsouza-13" class="social-pill" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile (opens in a new tab)">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/asheldsouza13/" class="social-pill" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile (opens in a new tab)">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                LinkedIn
+              </a>
+              <a href="mailto:dsouzaashel1301@gmail.com" class="social-pill" aria-label="Email Ashel Dsouza">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                Email
+              </a>
+              <a href="tel:8088826513" class="social-pill" aria-label="Call phone number 8088826513">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                +91 8088826513
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Portrait Showcase Frame -->
+          <div class="hero-profile-showcase">
+            <div class="hero-image-frame">
+              <img 
+                src="assets/ashel-dsouza.jpg" 
+                alt="Professional portrait of Ashel Dsouza, MCA student at Poornaprajna Institute of Management"
+                class="hero-profile-img"
+                width="340"
+                height="453"
+                loading="eager"
+              >
+              <div class="hero-image-caption">
+                <div>
+                  <div class="hero-caption-name">Ashel Dsouza</div>
+                  <div class="hero-caption-sub">MCA · PIM Udupi</div>
+                </div>
+                <span class="hero-caption-badge">Batch 2026–28</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. About Me & Academic Education Section
+         ======================================================================= -->
+    <section class="section-padding" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Academic Narrative</span>
+          <h2 class="section-title" id="about-heading">About Me &amp; Academic Journey</h2>
+          <p class="section-description">
+            Dedicated student with a solid background in Computer Applications, currently pursuing post-graduate studies at Poornaprajna Institute of Management (PIM), Udupi.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Authentic Narrative Card -->
+          <div class="about-narrative-card">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem;">
+              <img 
+                src="assets/ashel-dsouza.jpg" 
+                alt="Ashel Dsouza" 
+                style="width: 52px; height: 52px; border-radius: 50%; object-fit: cover; object-position: center top; border: 2px solid var(--border-primary); flex-shrink: 0;"
+              >
+              <div>
+                <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-primary); margin: 0;">A Foundation Built on Curiosity and Code</h3>
+                <span style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-muted);">Ashel Dsouza · MCA Candidate</span>
+              </div>
+            </div>
+            <p class="about-lead">
+              My journey into computing began with a desire to understand how intuitive digital systems are architected from the ground up.
+            </p>
+            <p class="about-body">
+              Having successfully graduated with a <strong>Bachelor of Computer Applications (BCA)</strong> with an 8.5 CGPA from Poornaprajna College, Udupi, I transitioned directly into the <strong>Master of Computer Applications (MCA)</strong> program at Poornaprajna Institute of Management (PIM) to deepen my expertise in computer applications, full-stack software development, and modern intelligent systems.
+            </p>
+            <p class="about-body">
+              I believe in learning through structured practice: understanding foundational data structures, writing clean code, building web interfaces with standard HTML/CSS, and exploring backend workflows with Java and PHP. My goal is to collaborate with engineering teams where I can contribute actively and grow into an impactful software developer.
+            </p>
+
+            <div class="about-metrics">
+              <div class="metric-item">
+                <span class="metric-value">8.5</span>
+                <span class="metric-label">BCA CGPA Score</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-value">2026–28</span>
+                <span class="metric-label">MCA Program Batch</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic Education Timeline -->
+          <div class="education-timeline" id="education" aria-labelledby="education-heading">
+            <h3 id="education-heading" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Education Records</h3>
+            
+            <!-- MCA Card -->
+            <div class="education-card">
+              <div class="education-badge-row">
+                <span class="badge badge-status">
+                  <span class="pulse-dot" aria-hidden="true"></span>
+                  Pursuing
+                </span>
+                <span class="badge">2026 – 2028</span>
+              </div>
+              <h4 class="education-degree">Master of Computer Applications (MCA)</h4>
+              <p class="education-institution">Poornaprajna Institute of Management (PIM)</p>
+              <p class="education-location">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+                Udupi, Karnataka
+              </p>
+              <p class="education-specialization">
+                <strong>Specialization:</strong> Computer Applications &amp; Software Development
+              </p>
+            </div>
+
+            <!-- BCA Card -->
+            <div class="education-card">
+              <div class="education-badge-row">
+                <span class="badge">
+                  <span class="badge-dot" style="background-color: #22c55e;"></span>
+                  Completed
+                </span>
+                <span class="badge">2023 – 2026</span>
+              </div>
+              <h4 class="education-degree">Bachelor of Computer Applications (BCA)</h4>
+              <p class="education-institution">Poornaprajna College, Udupi</p>
+              <p class="education-location">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+                Karnataka
+              </p>
+              <p class="education-specialization">
+                <strong>Specialization:</strong> Computer Applications
+              </p>
+              <div class="education-cgpa">
+                <span>Academic Score:</span>
+                <span>8.5 CGPA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. Technical Skills & Programming Proficiency
+         ======================================================================= -->
+    <section class="section-padding" id="skills" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-primary); border-bottom: 1px solid var(--border-primary);" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Verified Competencies</span>
+          <h2 class="section-title" id="skills-heading">Technical Skills &amp; Programming Proficiency</h2>
+          <p class="section-description">
+            Authentic, verified self-assessment of technical capabilities. In accordance with professional integrity guidelines, all proficiency levels reflect exact self-assessed foundational standards without exaggeration.
+          </p>
+        </div>
+
+        <!-- Integrity Scale Notice -->
+        <div class="skills-integrity-banner">
+          <div class="integrity-header">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            <span>Verified Self-Evaluation Framework</span>
+          </div>
+          <p class="integrity-text">
+            Each programming language and technology below has been individually assessed by the student. Ratings represent current verified proficiency with room for continuous expansion through real-world projects.
+          </p>
+          <div class="proficiency-scale" aria-label="Proficiency scale levels">
+            <span class="scale-tier">1. Beginner</span>
+            <span class="scale-tier active-tier">2. Basic (Current Verified Rating)</span>
+            <span class="scale-tier">3. Intermediate</span>
+            <span class="scale-tier">4. Advanced</span>
+            <span class="scale-tier">5. Expert</span>
+          </div>
+        </div>
+
+        <!-- 4.1 Core Programming Languages -->
+        <div class="skills-category-group">
+          <div class="skills-category-title">
+            <h3 class="category-heading">Core Programming Languages</h3>
+            <span class="category-meta">Verified Level: Basic</span>
+          </div>
+          <div class="languages-grid">
+            
+            <!-- C -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">C</span>
+                <span class="badge">Basic</span>
+              </div>
+              <span class="skill-classification">Imperative / System Fundamentals</span>
+              <div class="skill-meter-container">
+                <div class="skill-meter-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="C Proficiency: Basic">
+                  <div class="skill-meter-progress" style="width: 40%;"></div>
+                </div>
+                <div class="skill-meter-label">
+                  <span>Foundational</span>
+                  <span>Basic</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- C++ -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">C++</span>
+                <span class="badge">Basic</span>
+              </div>
+              <span class="skill-classification">Object-Oriented &amp; DSA</span>
+              <div class="skill-meter-container">
+                <div class="skill-meter-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="C++ Proficiency: Basic">
+                  <div class="skill-meter-progress" style="width: 40%;"></div>
+                </div>
+                <div class="skill-meter-label">
+                  <span>Foundational</span>
+                  <span>Basic</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Java -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">Java</span>
+                <span class="badge">Basic</span>
+              </div>
+              <span class="skill-classification">OOP &amp; Application Development</span>
+              <div class="skill-meter-container">
+                <div class="skill-meter-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="Java Proficiency: Basic">
+                  <div class="skill-meter-progress" style="width: 40%;"></div>
+                </div>
+                <div class="skill-meter-label">
+                  <span>Foundational</span>
+                  <span>Basic</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Python -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">Python</span>
+                <span class="badge">Basic</span>
+              </div>
+              <span class="skill-classification">Scripting, NumPy &amp; Pandas</span>
+              <div class="skill-meter-container">
+                <div class="skill-meter-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="Python Proficiency: Basic">
+                  <div class="skill-meter-progress" style="width: 40%;"></div>
+                </div>
+                <div class="skill-meter-label">
+                  <span>Foundational</span>
+                  <span>Basic</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- PHP -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">PHP</span>
+                <span class="badge">Basic</span>
+              </div>
+              <span class="skill-classification">Server-Side Web Scripting</span>
+              <div class="skill-meter-container">
+                <div class="skill-meter-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="PHP Proficiency: Basic">
+                  <div class="skill-meter-progress" style="width: 40%;"></div>
+                </div>
+                <div class="skill-meter-label">
+                  <span>Foundational</span>
+                  <span>Basic</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- C# -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">C#</span>
+                <span class="badge">Basic</span>
+              </div>
+              <span class="skill-classification">Modern Object-Oriented .NET</span>
+              <div class="skill-meter-container">
+                <div class="skill-meter-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="C# Proficiency: Basic">
+                  <div class="skill-meter-progress" style="width: 40%;"></div>
+                </div>
+                <div class="skill-meter-label">
+                  <span>Foundational</span>
+                  <span>Basic</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">JavaScript</span>
+                <span class="badge">Basic</span>
+              </div>
+              <span class="skill-classification">Interactive Client-Side Logic</span>
+              <div class="skill-meter-container">
+                <div class="skill-meter-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript Proficiency: Basic">
+                  <div class="skill-meter-progress" style="width: 40%;"></div>
+                </div>
+                <div class="skill-meter-label">
+                  <span>Foundational</span>
+                  <span>Basic</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 4.2 Web Development & Query Languages (Proper Classification) -->
+        <div class="skills-category-group">
+          <div class="skills-category-title">
+            <h3 class="category-heading">Web Fundamentals &amp; Database Languages</h3>
+            <span class="category-meta">Markup, Styling &amp; Query Management</span>
+          </div>
+          <div class="languages-grid">
+            <!-- HTML -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">HTML</span>
+                <span class="badge">Basic</span>
+              </div>
+              <span class="skill-classification">Markup &amp; Document Structure</span>
+              <div class="skill-meter-container">
+                <div class="skill-meter-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" aria-label="HTML Proficiency: Basic">
+                  <div class="skill-meter-progress" style="width: 45%;"></div>
+                </div>
+                <div class="skill-meter-label">
+                  <span>Web Structure</span>
+                  <span>Basic</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- CSS -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">CSS</span>
+                <span class="badge">Basic</span>
+              </div>
+              <span class="skill-classification">Styling, Layout &amp; Responsiveness</span>
+              <div class="skill-meter-container">
+                <div class="skill-meter-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" aria-label="CSS Proficiency: Basic">
+                  <div class="skill-meter-progress" style="width: 45%;"></div>
+                </div>
+                <div class="skill-meter-label">
+                  <span>Presentation</span>
+                  <span>Basic</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- SQL -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">SQL</span>
+                <span class="badge">Basic</span>
+              </div>
+              <span class="skill-classification">Relational Data Query &amp; CRUD</span>
+              <div class="skill-meter-container">
+                <div class="skill-meter-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="SQL Proficiency: Basic">
+                  <div class="skill-meter-progress" style="width: 40%;"></div>
+                </div>
+                <div class="skill-meter-label">
+                  <span>Data Querying</span>
+                  <span>Basic</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4.3 Technologies, Frameworks & Tooling Matrix -->
+        <div class="skills-category-group">
+          <div class="skills-category-title">
+            <h3 class="category-heading">Ecosystem, Frameworks &amp; Tooling</h3>
+            <span class="category-meta">Development Environments &amp; Infrastructure</span>
+          </div>
+          <div class="tools-matrix">
+            
+            <!-- Frontend & Backend Stack -->
+            <div class="tool-cluster-card">
+              <div class="tool-cluster-header">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                <span>Full-Stack Development</span>
+              </div>
+              <div class="tool-pill-list">
+                <span class="tool-pill">HTML</span>
+                <span class="tool-pill">CSS</span>
+                <span class="tool-pill">JavaScript</span>
+                <span class="tool-pill">PHP (Basic)</span>
+                <span class="tool-pill">Java Web</span>
+              </div>
+            </div>
+
+            <!-- Databases & Storage -->
+            <div class="tool-cluster-card">
+              <div class="tool-cluster-header">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                <span>Databases &amp; Storage</span>
+              </div>
+              <div class="tool-pill-list">
+                <span class="tool-pill">MySQL</span>
+                <span class="tool-pill">SQLite</span>
+                <span class="tool-pill">Relational Schema</span>
+              </div>
+            </div>
+
+            <!-- Data Science & AI -->
+            <div class="tool-cluster-card">
+              <div class="tool-cluster-header">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                <span>Data Science &amp; AI</span>
+              </div>
+              <div class="tool-pill-list">
+                <span class="tool-pill">NumPy</span>
+                <span class="tool-pill">Pandas</span>
+                <span class="tool-pill">Python Data Models</span>
+                <span class="tool-pill">AI/ML Exploration</span>
+              </div>
+            </div>
+
+            <!-- Development Tools & IDEs -->
+            <div class="tool-cluster-card">
+              <div class="tool-cluster-header">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                <span>Development Tools &amp; IDEs</span>
+              </div>
+              <div class="tool-pill-list">
+                <span class="tool-pill">GitHub</span>
+                <span class="tool-pill">Visual Studio Code</span>
+                <span class="tool-pill">Google Antigravity</span>
+              </div>
+            </div>
+
+            <!-- Cloud & Deployment -->
+            <div class="tool-cluster-card">
+              <div class="tool-cluster-header">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+                <span>Cloud &amp; Deployment</span>
+              </div>
+              <div class="tool-pill-list">
+                <span class="tool-pill">AWS</span>
+                <span class="tool-pill">Microsoft Azure</span>
+                <span class="tool-pill">Vercel</span>
+                <span class="tool-pill">GitHub Pages</span>
+                <span class="tool-pill">Google Cloud</span>
+              </div>
+            </div>
+
+            <!-- Additional Technical Skills -->
+            <div class="tool-cluster-card">
+              <div class="tool-cluster-header">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Software Engineering Fundamentals</span>
+              </div>
+              <div class="tool-pill-list">
+                <span class="tool-pill">Data Structures &amp; Algorithms</span>
+                <span class="tool-pill">Object-Oriented Programming</span>
+                <span class="tool-pill">Testing and Debugging</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. Featured Projects Section
+         ======================================================================= -->
+    <section class="section-padding" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Portfolio Artifacts</span>
+          <h2 class="section-title" id="projects-heading">Featured Real Projects</h2>
+          <p class="section-description">
+            Hands-on software applications built with genuine code, clear architectural focus, and practical utility.
+          </p>
+        </div>
+
+        <!-- Filtering Tabs -->
+        <div class="project-filters" role="tablist" aria-label="Filter projects by category">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+          <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web Development</button>
+          <button class="filter-btn" data-filter="academic" role="tab" aria-selected="false">Academic Systems</button>
+        </div>
+
+        <!-- Project Cards Container -->
+        <div class="projects-grid">
+          
+          <!-- Project 1: Online Food Ordering System -->
+          <article class="project-card" data-category="web" aria-labelledby="p1-title">
+            
+            <!-- Simulated UI Preview Window -->
+            <div class="project-visual-preview" aria-hidden="true">
+              <div class="mock-browser-frame">
+                <div class="mock-browser-bar">
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                  <div class="mock-address-bar">localhost:8080/food-ordering/menu.html</div>
+                </div>
+                <div class="mock-content">
+                  <div style="font-size: 0.75rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">
+                    Fresh Bites · Online Ordering
+                  </div>
+                  <div class="mock-item-row">
+                    <div>
+                      <div style="font-weight: 600;">Margherita Delight</div>
+                      <div style="font-size: 0.7rem; color: var(--text-muted);">Crispy crust, basil &amp; mozzarella</div>
+                    </div>
+                    <span class="mock-item-btn">Add to Cart</span>
+                  </div>
+                  <div class="mock-item-row">
+                    <div>
+                      <div style="font-weight: 600;">Garden Veggie Wrap</div>
+                      <div style="font-size: 0.7rem; color: var(--text-muted);">Grilled paneer, herbs &amp; dip</div>
+                    </div>
+                    <span class="mock-item-btn">Add to Cart</span>
+                  </div>
+                  <div class="mock-item-row">
+                    <div>
+                      <div style="font-weight: 600;">Cooler Mint Mocktail</div>
+                      <div style="font-size: 0.7rem; color: var(--text-muted);">Fresh lime &amp; crushed mint</div>
+                    </div>
+                    <span class="mock-item-btn">Add to Cart</span>
+                  </div>
+                  <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px dashed var(--border-primary); display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem;">
+                    <span style="font-family: var(--font-mono);">Active Cart (3 items)</span>
+                    <span style="font-weight: 700;">Proceed to Order &rarr;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Details & Writeup -->
+            <div class="project-info">
+              <div class="project-meta-row">
+                <span class="badge">Web Development</span>
+                <span class="badge" style="border-color: #22c55e;">
+                  <span class="badge-dot" style="background-color: #22c55e;"></span>
+                  Completed
+                </span>
+              </div>
+
+              <h3 class="project-title" id="p1-title">Online Food Ordering System</h3>
+
+              <p class="project-overview">
+                A web-based application developed to make food ordering easier and more convenient. It allows users to browse food items and place orders through a simple and user-friendly interface.
+              </p>
+
+              <!-- Problem Being Solved -->
+              <div class="project-detail-block">
+                <span class="project-detail-label">Problem Being Solved</span>
+                <p class="project-detail-text">
+                  Reduces the need for manual food ordering and simplifies the ordering process by providing an online platform for browsing food items and placing orders.
+                </p>
+              </div>
+
+              <!-- Key Contributions -->
+              <div class="project-detail-block">
+                <span class="project-detail-label">Key Engineering Contributions</span>
+                <p class="project-detail-text">
+                  Designed and developed the website interface using <strong>HTML</strong> and <strong>CSS</strong> and implemented the application functionality using <strong>Java</strong>. Worked on creating a user-friendly food ordering platform.
+                </p>
+              </div>
+
+              <!-- Tech Stack Pills -->
+              <div class="project-detail-block">
+                <span class="project-detail-label">Tech Stack</span>
+                <div class="project-tech-stack">
+                  <span class="badge">HTML5</span>
+                  <span class="badge">CSS3</span>
+                  <span class="badge">Java</span>
+                  <span class="badge">Web Application</span>
+                </div>
+              </div>
+
+              <!-- Actions -->
+              <div class="project-actions">
+                <button class="btn btn-secondary" data-action="open-project-details" aria-label="View architectural details of the Online Food Ordering System">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  Architecture &amp; Implementation Details
+                </button>
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. Interests, Ambitions & Career Trajectory
+         ======================================================================= -->
+    <section class="section-padding" id="interests" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-primary);" aria-labelledby="interests-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Aspirations</span>
+          <h2 class="section-title" id="interests-heading">Interests, Ambitions &amp; Target Roles</h2>
+          <p class="section-description">
+            Future-facing areas of focus, technical passions, and the engineering roles I am actively preparing to assume.
+          </p>
+        </div>
+
+        <div class="interests-grid">
+          
+          <!-- Card 1: Target Roles -->
+          <div class="interest-card">
+            <div class="interest-icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <h3 class="interest-card-title">Target Roles</h3>
+            <p class="interest-card-description">
+              Actively targeting early-career roles where I can apply strong computer science fundamentals, write clean maintainable code, and collaborate in productive agile teams.
+            </p>
+            <div class="interest-pill-group">
+              <span class="badge">Software Developer</span>
+              <span class="badge">Web Developer</span>
+              <span class="badge">Graduate Software Engineer</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Primary Technical Interests -->
+          <div class="interest-card">
+            <div class="interest-icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+            <h3 class="interest-card-title">Core Areas of Interest</h3>
+            <p class="interest-card-description">
+              Passionate about both user-facing interface engineering and intelligent backend workflows that scale seamlessly.
+            </p>
+            <div class="interest-pill-group">
+              <span class="badge">Web Development</span>
+              <span class="badge">Full-Stack Development</span>
+              <span class="badge">Software Engineering</span>
+              <span class="badge">Artificial Intelligence</span>
+              <span class="badge">Machine Learning</span>
+              <span class="badge">Cloud Computing</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Natural Languages & Communication -->
+          <div class="interest-card">
+            <div class="interest-icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3 class="interest-card-title">Communication &amp; Mindset</h3>
+            <p class="interest-card-description">
+              Clear communicator, attentive listener, and collaborative peer eager to absorb industry best practices through code reviews and mentorship.
+            </p>
+            <div class="interest-pill-group">
+              <span class="badge">English (Fluent)</span>
+              <span class="badge">Kannada (Native)</span>
+              <span class="badge">Growth Mindset</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. Contact & Social Network Section
+         ======================================================================= -->
+    <section class="section-padding" id="contact" style="border-top: 1px solid var(--border-primary);" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Get in Touch</span>
+          <h2 class="section-title" id="contact-heading">Let's Connect</h2>
+          <p class="section-description">
+            Whether you represent a hiring team with an internship opening, a fellow student interested in building something together, or an engineering mentor, I welcome the conversation.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          
+          <!-- Contact Info Directory -->
+          <div class="contact-info-panel">
+            
+            <!-- Email Card -->
+            <div class="contact-card">
+              <div class="contact-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-type">Direct Email</span>
+                <a href="mailto:dsouzaashel1301@gmail.com" class="contact-val">dsouzaashel1301@gmail.com</a>
+                <div class="contact-action-row">
+                  <a href="mailto:dsouzaashel1301@gmail.com" class="btn btn-primary btn-sm">Compose Email</a>
+                  <button class="btn btn-secondary btn-sm" data-copy-text="dsouzaashel1301@gmail.com" data-copy-label="Email address">
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="contact-card">
+              <div class="contact-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-type">Direct Phone</span>
+                <a href="tel:8088826513" class="contact-val">+91 8088826513</a>
+                <div class="contact-action-row">
+                  <a href="tel:8088826513" class="btn btn-secondary btn-sm">Call Now</a>
+                  <button class="btn btn-secondary btn-sm" data-copy-text="8088826513" data-copy-label="Phone number">
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-card">
+              <div class="contact-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-type">Location Base</span>
+                <span class="contact-val">Udupi, Karnataka, India</span>
+                <span style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.25rem;">
+                  Poornaprajna Institute of Management (PIM)
+                </span>
+              </div>
+            </div>
+
+            <!-- Professional Networks -->
+            <div class="contact-card">
+              <div class="contact-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-type">Professional Networks</span>
+                <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem; flex-wrap: wrap;">
+                  <a href="https://www.linkedin.com/in/asheldsouza13/" class="social-pill" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    LinkedIn Profile &rarr;
+                  </a>
+                  <a href="https://github.com/asheldsouza-13" class="social-pill" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                    GitHub Repositories &rarr;
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Direct Message Form -->
+          <div class="contact-form-panel">
+            <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">
+              Send an Instant Message
+            </h3>
+            <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+              Fill in your message below to immediately launch a pre-composed email draft to Ashel Dsouza.
+            </p>
+
+            <form id="portfolio-contact-form">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. John Doe / Hiring Manager" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email Address</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="e.g. john@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" class="form-input" placeholder="e.g. Internship Opportunity / Project Collaboration" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Hello Ashel, we reviewed your profile and projects at Poornaprajna Institute of Management..." required></textarea>
+                <span class="form-helper">This opens your default mail client with all fields safely filled.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Send Message via Email
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       8. Site Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div>
+          <span class="footer-brand">Ashel Dsouza</span>
+          <p style="font-size: 0.825rem; color: var(--text-muted); margin-top: 0.25rem;">
+            MCA Candidate · Poornaprajna Institute of Management (PIM), Udupi, Karnataka
+          </p>
+        </div>
+        <div>
+          <button id="back-to-top" class="btn btn-secondary btn-sm" aria-label="Scroll back to top of page">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+            Back to Top
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Ashel Dsouza. Authentic portfolio adhering to strict academic &amp; technical accuracy.
+        </div>
+        <div>
+          Poornaprajna Institute of Management (PIM) · Udupi · Karnataka
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       9. Modal: Project Architecture Details (Online Food Ordering System)
+       ========================================================================= -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="project-modal-title">Project Case Study: Online Food Ordering System</h3>
+        <button class="btn-icon" data-action="close-modal" aria-label="Close project details modal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"/><line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          
+          <div>
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
+              <span class="badge">Web Development</span>
+              <span class="badge">Status: Completed</span>
+              <span class="badge">Java · HTML · CSS</span>
+            </div>
+            <p style="font-size: 1rem; color: var(--text-secondary); line-height: 1.7;">
+              The <strong>Online Food Ordering System</strong> is a functional web-based solution created to eliminate manual order handling in food service environments. It provides customers with a structured visual catalog of food items, dynamic price calculation, and order submission.
+            </p>
+          </div>
+
+          <!-- Problem & Solution -->
+          <div style="background-color: var(--bg-secondary); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-primary);">
+            <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem;">Problem Being Solved</h4>
+            <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.6;">
+              Manual food ordering is prone to miscommunication, prolonged waiting times, and billing errors. This application digitizes the process, letting customers browse current menu offerings with clear pricing and place orders conveniently through an intuitive web interface.
+            </p>
+          </div>
+
+          <!-- Architectural Breakdown -->
+          <div>
+            <h4 style="font-size: 1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.75rem;">System Architecture &amp; Contributions</h4>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div style="border: 1px solid var(--border-primary); padding: 1rem; border-radius: var(--radius-md); background-color: var(--bg-card);">
+                <strong style="font-size: 0.875rem; color: var(--text-primary); display: block; margin-bottom: 0.35rem;">Frontend Layer (HTML &amp; CSS)</strong>
+                <p style="font-size: 0.825rem; color: var(--text-secondary);">
+                  Designed and structured clean web layouts, responsive product cards, cart summaries, and accessible order forms styled with pure CSS.
+                </p>
+              </div>
+              <div style="border: 1px solid var(--border-primary); padding: 1rem; border-radius: var(--radius-md); background-color: var(--bg-card);">
+                <strong style="font-size: 0.875rem; color: var(--text-primary); display: block; margin-bottom: 0.35rem;">Backend &amp; Logic (Java)</strong>
+                <p style="font-size: 0.825rem; color: var(--text-secondary);">
+                  Implemented application workflows, handling item selection, order processing, and business logic using core Java fundamentals.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- User Journey Walkthrough -->
+          <div>
+            <h4 style="font-size: 1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">Core User Workflow</h4>
+            <ol style="padding-left: 1.25rem; font-size: 0.875rem; color: var(--text-secondary); line-height: 1.7;">
+              <li><strong>Browse Catalog:</strong> Users explore available categories and food items with verified pricing.</li>
+              <li><strong>Item Selection:</strong> Items are queued into the active order state with instant total calculation.</li>
+              <li><strong>Order Placement:</strong> Customer provides order details and submits the request through the validated form.</li>
+            </ol>
+          </div>
+
+          <!-- Key Learnings -->
+          <div style="border-top: 1px dashed var(--border-primary); padding-top: 1rem;">
+            <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem;">Key Engineering Takeaways</h4>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6;">
+              Gained practical experience connecting user-facing markup with backend application logic, understanding state management, and organizing modular code for maintainability.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-action="close-modal">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       10. Modal: Full Printable Developer Resume
+       ========================================================================= -->
+  <div class="modal-overlay" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="resume-modal-title">Ashel Dsouza — Curriculum Vitae</h3>
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="btn btn-primary btn-sm" id="print-resume-btn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Print / Save as PDF
+          </button>
+          <button class="btn-icon" data-action="close-modal" aria-label="Close resume modal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"/><line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div class="resume-paper" id="resume-document">
+          
+          <!-- Resume Header -->
+          <div class="resume-header">
+            <div style="display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+              <div style="flex: 1; min-width: 240px;">
+                <h1 class="resume-name">Ashel Dsouza</h1>
+                <p class="resume-tagline">MCA Student | Aspiring Software Developer | AI &amp; ML Enthusiast</p>
+                <div class="resume-contact-bar" style="margin-top: 0.5rem;">
+                  <span>Location: Udupi, Karnataka</span>
+                  <span>•</span>
+                  <span>Email: dsouzaashel1301@gmail.com</span>
+                  <span>•</span>
+                  <span>Phone: +91 8088826513</span>
+                  <span>•</span>
+                  <span>GitHub: asheldsouza-13</span>
+                  <span>•</span>
+                  <span>LinkedIn: asheldsouza13</span>
+                </div>
+              </div>
+              <img 
+                src="assets/ashel-dsouza.jpg" 
+                alt="Ashel Dsouza"
+                style="width: 80px; height: 104px; object-fit: cover; object-position: center top; border-radius: var(--radius-md); border: 1px solid var(--border-primary); flex-shrink: 0;"
+              >
+            </div>
+          </div>
+
+          <!-- Professional Statement -->
+          <div class="resume-section">
+            <h2 class="resume-heading">Personal Statement</h2>
+            <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.6;">
+              I am an MCA student with a background in Computer Applications and a strong interest in software development, web technologies, and Artificial Intelligence. I enjoy learning new technologies, exploring programming concepts, and building practical projects. I am eager to improve my technical skills and gain hands-on experience through real-world opportunities.
+            </p>
+          </div>
+
+          <!-- Education -->
+          <div class="resume-section">
+            <h2 class="resume-heading">Academic Education</h2>
+            
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <span class="resume-entry-title">Master of Computer Applications (MCA) — Pursuing</span>
+                <span class="resume-entry-date">2026 – 2028</span>
+              </div>
+              <span class="resume-entry-sub">Poornaprajna Institute of Management (PIM), Udupi, Karnataka</span>
+              <ul class="resume-bullets">
+                <li>Specialization: Computer Applications &amp; Software Development.</li>
+                <li>Focusing on advanced computing concepts, software architecture, and modern application development.</li>
+              </ul>
+            </div>
+
+            <div class="resume-entry" style="margin-top: 0.75rem;">
+              <div class="resume-entry-header">
+                <span class="resume-entry-title">Bachelor of Computer Applications (BCA) — Completed</span>
+                <span class="resume-entry-date">2023 – 2026</span>
+              </div>
+              <span class="resume-entry-sub">Poornaprajna College, Udupi (Karnataka) — <strong>CGPA: 8.5</strong></span>
+              <ul class="resume-bullets">
+                <li>Graduated with distinction; built core proficiency in object-oriented programming, data structures, and database systems.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Technical Skills -->
+          <div class="resume-section">
+            <h2 class="resume-heading">Technical Skills &amp; Verified Expertise</h2>
+            <div style="font-size: 0.875rem; line-height: 1.65; color: var(--text-secondary);">
+              <p><strong>Core Programming Languages (Verified Level: Basic):</strong> C, C++, Java, Python, PHP, C#, JavaScript</p>
+              <p><strong>Web Development Fundamentals (Level: Basic):</strong> HTML, CSS</p>
+              <p><strong>Database &amp; Query Languages (Level: Basic):</strong> SQL, MySQL, SQLite</p>
+              <p><strong>Frameworks &amp; AI Libraries:</strong> NumPy, Pandas</p>
+              <p><strong>Developer Tools &amp; Platforms:</strong> GitHub, Visual Studio Code, Google Antigravity</p>
+              <p><strong>Cloud Platforms:</strong> AWS, Microsoft Azure, Vercel, GitHub Pages, Google Cloud</p>
+              <p><strong>Software Engineering Fundamentals:</strong> Data Structures and Algorithms, Object-Oriented Programming, Testing and Debugging</p>
+            </div>
+          </div>
+
+          <!-- Real Projects -->
+          <div class="resume-section">
+            <h2 class="resume-heading">Technical Projects</h2>
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <span class="resume-entry-title">Online Food Ordering System</span>
+                <span class="resume-entry-date">Completed · Web Development</span>
+              </div>
+              <span class="resume-entry-sub">Technologies: HTML, CSS, Java</span>
+              <ul class="resume-bullets">
+                <li>A web-based application developed to make food ordering easier and more convenient by providing an online platform for browsing food items and placing orders.</li>
+                <li>Reduces the need for manual food ordering and simplifies the customer ordering process.</li>
+                <li>Designed and developed the website interface using HTML and CSS and implemented application functionality using Java.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Career Trajectory & Languages -->
+          <div class="resume-section">
+            <h2 class="resume-heading">Career Trajectory &amp; Spoken Languages</h2>
+            <div style="font-size: 0.875rem; line-height: 1.6; color: var(--text-secondary);">
+              <p><strong>Target Engineering Roles:</strong> Software Developer, Web Developer</p>
+              <p><strong>Primary Areas of Interest:</strong> Web Development, Full-Stack Development, Software Engineering, Artificial Intelligence, Machine Learning, Cloud Computing</p>
+              <p><strong>Natural Languages:</strong> English, Kannada</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-action="close-modal">Close</button>
+        <button class="btn btn-primary" onclick="window.print()">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          Print / Save PDF
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notice" id="toast-notice" role="status" aria-live="polite"></div>
+
+  <!-- Core JavaScript Engine -->
+  <script src="js/app.js"></script>
+</body>
+</html>
